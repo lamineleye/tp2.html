@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seg4</title>
+    <style>
+            body{
+                background-color: silver;
+            }
+                .seg4{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 40px auto;
+        }
+        .carre{
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 15px;
+            padding: 10px;
+        }
+        .carre img{
+            width: 100%;
+            overflow: hidden;
+            object-fit: cover;
+            height: 400px;
+        }
+        .carre h1{
+            font-size: 40px;
+        }
+        .carre p{
+            line-height: 1.7;
+            padding: 10px;
+        }
+        @media(max-width:820px){
+        .seg4{
+            grid-template-columns: repeat(2,1fr);
+        }
+        }
+        @media(max-width:414px){
+        .seg4{
+            grid-template-columns: repeat(1,1fr);
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="seg4">
+            <div class="carre">
+                <img src="homme.jpg" alt=""> 
+                <h1>homme</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore aliquam repellat deserunt ullam quis architecto maiores? Saepe nulla dicta hic quae? Aperiam dolor, provident doloremque sequi itaque non consequatur beatae, assumenda quas quaerat sint ipsam velit optio inventore repellat consectetur reiciendis obcaecati in quisquam alias eligendi recusandae modi iste quo. Ipsum, explicabo voluptate animi modi reiciendis excepturi eveniet fuga velit aliquam, beatae, rerum sequi soluta! Quidem perspiciatis excepturi, iste, eligendi vero a incidunt sed quibusdam, asperiores facilis provident debitis repellat magnam suscipit ea est nostrum explicabo expedita ad deleniti voluptas. Quia nisi iste perferendis molestias modi repellat voluptatum tenetur.</p>
+            </div>
+            <div class="carre">
+                <img src="femme.jpg" alt=""> 
+                <h1>femme</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore aliquam repellat deserunt ullam quis architecto maiores? Saepe nulla dicta hic quae? Aperiam dolor, provident doloremque sequi itaque non consequatur beatae, assumenda quas quaerat sint ipsam velit optio inventore repellat consectetur reiciendis obcaecati in quisquam alias eligendi recusandae modi iste quo. Ipsum, explicabo voluptate animi modi reiciendis excepturi eveniet fuga velit aliquam, beatae, rerum sequi soluta! Quidem perspiciatis excepturi, iste, eligendi vero a incidunt sed quibusdam, asperiores facilis provident debitis repellat magnam suscipit ea est nostrum explicabo expedita ad deleniti voluptas. Quia nisi iste perferendis molestias modi repellat voluptatum tenetur.</p>
+            </div>
+            <div class="carre">
+                <img src="enfant.jpg" alt="">
+                <h1>enfant</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore aliquam repellat deserunt ullam quis architecto maiores? Saepe nulla dicta hic quae? Aperiam dolor, provident doloremque sequi itaque non consequatur beatae, assumenda quas quaerat sint ipsam velit optio inventore repellat consectetur reiciendis obcaecati in quisquam alias eligendi recusandae modi iste quo. Ipsum, explicabo voluptate animi modi reiciendis excepturi eveniet fuga velit aliquam, beatae, rerum sequi soluta! Quidem perspiciatis excepturi, iste, eligendi vero a incidunt sed quibusdam, asperiores facilis provident debitis repellat magnam suscipit ea est nostrum explicabo expedita ad deleniti voluptas. Quia nisi iste perferendis molestias modi repellat voluptatum tenetur.</p>
+            </div>
+            <div class="carre">
+                <img src="vieux.jpg" alt=""> 
+                <h1>vieux</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore aliquam repellat deserunt ullam quis architecto maiores? Saepe nulla dicta hic quae? Aperiam dolor, provident doloremque sequi itaque non consequatur beatae, assumenda quas quaerat sint ipsam velit optio inventore repellat consectetur reiciendis obcaecati in quisquam alias eligendi recusandae modi iste quo. Ipsum, explicabo voluptate animi modi reiciendis excepturi eveniet fuga velit aliquam, beatae, rerum sequi soluta! Quidem perspiciatis excepturi, iste, eligendi vero a incidunt sed quibusdam, asperiores facilis provident debitis repellat magnam suscipit ea est nostrum explicabo expedita ad deleniti voluptas. Quia nisi iste perferendis molestias modi repellat voluptatum tenetur.</p>
+            </div>
+            <div class="carre">
+                <img src="Ginger Tabby on Couch.png" alt=""> 
+                <h1>animal</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore aliquam repellat deserunt ullam quis architecto maiores? Saepe nulla dicta hic quae? Aperiam dolor, provident doloremque sequi itaque non consequatur beatae, assumenda quas quaerat sint ipsam velit optio inventore repellat consectetur reiciendis obcaecati in quisquam alias eligendi recusandae modi iste quo. Ipsum, explicabo voluptate animi modi reiciendis excepturi eveniet fuga velit aliquam, beatae, rerum sequi soluta! Quidem perspiciatis excepturi, iste, eligendi vero a incidunt sed quibusdam, asperiores facilis provident debitis repellat magnam suscipit ea est nostrum explicabo expedita ad deleniti voluptas. Quia nisi iste perferendis molestias modi repellat voluptatum tenetur.</p>
+            </div>
+            <div class="carre">
+                <img src="plante.png" alt="">
+                <h1>plante</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore aliquam repellat deserunt ullam quis architecto maiores? Saepe nulla dicta hic quae? Aperiam dolor, provident doloremque sequi itaque non consequatur beatae, assumenda quas quaerat sint ipsam velit optio inventore repellat consectetur reiciendis obcaecati in quisquam alias eligendi recusandae modi iste quo. Ipsum, explicabo voluptate animi modi reiciendis excepturi eveniet fuga velit aliquam, beatae, rerum sequi soluta! Quidem perspiciatis excepturi, iste, eligendi vero a incidunt sed quibusdam, asperiores facilis provident debitis repellat magnam suscipit ea est nostrum explicabo expedita ad deleniti voluptas. Quia nisi iste perferendis molestias modi repellat voluptatum tenetur.</p>
+            </div>
+            <div class="carre">
+                <img src="nature.png" alt="">
+                <h1>nature</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore aliquam repellat deserunt ullam quis architecto maiores? Saepe nulla dicta hic quae? Aperiam dolor, provident doloremque sequi itaque non consequatur beatae, assumenda quas quaerat sint ipsam velit optio inventore repellat consectetur reiciendis obcaecati in quisquam alias eligendi recusandae modi iste quo. Ipsum, explicabo voluptate animi modi reiciendis excepturi eveniet fuga velit aliquam, beatae, rerum sequi soluta! Quidem perspiciatis excepturi, iste, eligendi vero a incidunt sed quibusdam, asperiores facilis provident debitis repellat magnam suscipit ea est nostrum explicabo expedita ad deleniti voluptas. Quia nisi iste perferendis molestias modi repellat voluptatum tenetur.</p>
+            </div>
+            <div class="carre">
+                <img src="logo.jpg" alt="">
+                <h1>logo</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore aliquam repellat deserunt ullam quis architecto maiores? Saepe nulla dicta hic quae? Aperiam dolor, provident doloremque sequi itaque non consequatur beatae, assumenda quas quaerat sint ipsam velit optio inventore repellat consectetur reiciendis obcaecati in quisquam alias eligendi recusandae modi iste quo. Ipsum, explicabo voluptate animi modi reiciendis excepturi eveniet fuga velit aliquam, beatae, rerum sequi soluta! Quidem perspiciatis excepturi, iste, eligendi vero a incidunt sed quibusdam, asperiores facilis provident debitis repellat magnam suscipit ea est nostrum explicabo expedita ad deleniti voluptas. Quia nisi iste perferendis molestias modi repellat voluptatum tenetur.</p>
+            </div>
+    </div> 
+</body>
+</html>
